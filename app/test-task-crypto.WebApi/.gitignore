@@ -476,3 +476,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 .idea
+*.iml
+**/out
+bin/
+obj/
+*.csproj.user
+/_ReSharper.Caches/
+riderModule.iml
