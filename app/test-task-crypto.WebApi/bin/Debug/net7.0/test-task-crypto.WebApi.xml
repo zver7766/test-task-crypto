@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>test-task-crypto.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:test_task_crypto.Controllers.EstimatesController.GetEstimate(System.String,System.String,System.Decimal,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the best exchange rate estimate for converting a specified amount from one currency to another.
+            </summary>
+            <param name="inputCurrency">The currency code of the input amount (e.g., "USDT").</param>
+            <param name="outputCurrency">The target currency code for conversion (e.g., "BTC").</param>
+            <param name="inputAmount">The amount of the input currency to be converted.</param>
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> that, when executed, will produce an HTTP response containing the exchange rate estimate.</returns>
+            <response code="200">Returns the exchange rate estimate, including the exchange name and the output amount after conversion.</response>
+            <response code="400">If the query parameters are not valid, indicating a bad request.</response>
+        </member>
+        <member name="M:test_task_crypto.Controllers.RatesController.GetRates(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the exchange rate information for multiple exchanges between the specified base and quote currencies.
+            </summary>
+            <param name="baseCurrency">The base currency code (e.g., BTC) for which to retrieve exchange rate information.</param>
+            <param name="quoteCurrency">The quote currency code (e.g., USDT) against which the base currency is measured.</param>
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>A task that represents the asynchronous operation. The task result contains an <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> that, when executed, will produce an HTTP response with the exchange rate information.</returns>
+            <response code="200">Returns the exchange rate information for multiple exchanges and the specified currency pair.</response>
+            <response code="400">If the query parameters are not valid, a bad request response is returned.</response>
+        </member>
+    </members>
+</doc>

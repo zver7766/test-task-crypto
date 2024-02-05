@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wrBaOG1kjjMZaN1Fo+kbVyvsWqSjiKFjaJ9Ux+4Vjdk=",
+  "Source": "test-task-crypto.WebApi",
+  "BasePath": "_content/test-task-crypto.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

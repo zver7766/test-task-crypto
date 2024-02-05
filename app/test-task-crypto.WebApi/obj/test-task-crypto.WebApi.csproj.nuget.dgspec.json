@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/maksymprokhorchuk/Project/test-task-crypto/app/test-task-crypto.WebApi/test-task-crypto.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/maksymprokhorchuk/Project/test-task-crypto/app/test-task-crypto.WebApi/test-task-crypto.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maksymprokhorchuk/Project/test-task-crypto/app/test-task-crypto.WebApi/test-task-crypto.WebApi.csproj",
+        "projectName": "test-task-crypto.WebApi",
+        "projectPath": "/Users/maksymprokhorchuk/Project/test-task-crypto/app/test-task-crypto.WebApi/test-task-crypto.WebApi.csproj",
+        "packagesPath": "/Users/maksymprokhorchuk/.nuget/packages/",
+        "outputPath": "/Users/maksymprokhorchuk/Project/test-task-crypto/app/test-task-crypto.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maksymprokhorchuk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.312/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex-sys.net/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Binance.Spot": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2023.3.0, )"
+            },
+            "Kucoin.Net": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
