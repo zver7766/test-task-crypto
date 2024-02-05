@@ -466,12 +466,6 @@ ehthumbs_vista.db
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
 
 # Windows shortcuts
 *.lnk
@@ -481,5 +475,12 @@ $RECYCLE.BIN/
 bin/
 obj/
 *.csproj.user
+/app/test-task-crypto.WebApi/*.csproj.user
 /_ReSharper.Caches/
 riderModule.iml
+/obj/
+/bin/
+/.idea/
+/app/test-task-crypto.WebApi/.idea/
+/app/test-task-crypto.WebApi/bin/
+/app/test-task-crypto.WebApi/obj/
